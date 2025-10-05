@@ -1,11 +1,11 @@
 @font-face {
-  font-family: seb;
+  font-family: apple;
   src: url(/sf-pro-text_regular.woff2);
 }
-@font-face {
+/* @font-face {
     font-family: ic;
     src: url(/Alpino-Black.ttf);
-}
+} */
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +32,7 @@ body{
     gap: 40px; 
     font-size: 12px;
     font-weight: lighter;
-    font-family: seb;
+    font-family: apple;
 }
 #center{
     width: 100%;
@@ -42,7 +42,7 @@ body{
     background-position: bottom;
     text-align: center;
     padding: 40px;
-    font-family:seb;
+    font-family: apple;
     color: white;
 }
 #center h1 {
@@ -91,7 +91,7 @@ button{
     background-position: center;
     text-align: center;
     padding: 52px;
-    font-family:seb;
+    font-family: apple;
     color: rgb(10, 10, 10);
 }
 #air h1 {
