@@ -1,0 +1,109 @@
+@font-face {
+  font-family: seb;
+  src: url(/sf-pro-text_regular.woff2);
+}
+@font-face {
+    font-family: ic;
+    src: url(/Alpino-Black.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 252, 252);
+}
+#nav{
+    height: 45px;
+    width: 100%;
+    background-color: rgb(31, 29, 28);
+    color: #fbf8f8;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 40px; 
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: seb;
+}
+#center{
+    width: 100%;
+    height: 90%;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_mediumtall_2x.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    padding: 40px;
+    font-family:seb;
+    color: white;
+}
+#center h1 {
+    font-size: 55px;
+}
+#center h3{
+    font-size: 25px;
+    font-weight: 100;
+}
+.but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding: 17px;
+}
+button{
+    padding: 12px 22px;
+    border-radius: 50px;   
+}
+.b1{
+    background-color: royalblue;
+    color: white;
+    border: none;
+    font-weight: 500;
+    font-size: large;
+}
+.b2{
+    background-color: transparent;
+    color: royalblue;
+    border: 1px solid royalblue;
+    font-weight: 500;
+    font-size: large;
+}
+.b2:hover{
+    color: white;
+    background-color: royalblue;
+    transform: scale(1);
+}
+#air{
+    height: 90%;
+    width: 100%;
+    margin-top: 10px;
+    background-image: url(https://www.apple.com/v/home/ch/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_mediumtall_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 52px;
+    font-family:seb;
+    color: rgb(10, 10, 10);
+}
+#air h1 {
+    font-size: 57px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    
+}
+#air p {
+    font: weight bolder;
+    font-size: 26px;
+    width: 370px;
+  margin-left: 520px;
+    
+}
